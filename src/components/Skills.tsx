@@ -24,9 +24,9 @@ const Skills = () => {
                     </div>
                     <div>
                         <div className='space-y-2'>
-                            <h2>Tailwind</h2>
-                            <h2>css</h2>
-                            <h2>node.js</h2>
+                            <h2 data-aos="zoom-in-up">Tailwind</h2>
+                            <h2 data-aos="zoom-in-up">css</h2>
+                            <h2 data-aos="zoom-in-up">node.js</h2>
                         </div>
                     </div>
                 </div>
