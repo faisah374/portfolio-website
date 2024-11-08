@@ -1,13 +1,13 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 import Heading from './Heading';
 import Card from './Card';
 import React from 'react'
-import { title } from 'process';
+// import { title } from 'process';
 
 const data=[
  { 
   id:0,
-  tittle:"Dynamic resume Bulider",
+  title:"Dynamic resume Bulider",
   desc:"Hackthone milestone",       
   img:   "/photo2.jpg",
   tags:["html","node", "css","typescript"]

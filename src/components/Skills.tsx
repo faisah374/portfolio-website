@@ -10,7 +10,7 @@ const Skills = () => {
                 <p className='text-gray-500 pt-2'>
                     I have solid foundation in web development,specializing in Html,and
                     javascript.My expreince extends to  using farmeworks like React and next.js to 
-                    create  dynamic and user- friendly application .I 'm tailwind css for efficient
+                    create  dynamic and user friendly application .I am tailwind css for efficient
                     and design.with a passion for  learning ,I stay updated on the latest
                     teclohnologies to enchace my skill set and contributed effectively to projects.
                 </p>

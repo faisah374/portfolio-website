@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar';
-import Image from 'next/image'
+// import Image from 'next/image'
 
 const Hero = () => {
   return (
@@ -13,9 +13,11 @@ const Hero = () => {
    <div className=' container gird lg:grid-cols-2 h-[calc(100vh-60px)]' >
    <div className='hidden lg:block'></div>
    <div className='text-[80px] sm:text-[100px] font-bold leading-tight flex justify-center items-center'>
-    <div><p data-aos="zoom-in-up">I'm</p>
+    <div>
+      <p data-aos="zoom-in-up">I'm</p>
     <p data-aos ="zoom-in-up">Faisal</p>
-    <p  data-aos="zoom-in-left">Hameed</p></div>
+    <p  data-aos="zoom-in-left">Hameed</p>
+    </div>
  </div>
 
 

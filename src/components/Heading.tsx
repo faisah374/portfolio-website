@@ -1,6 +1,6 @@
 import React from 'react'
-import { title } from 'process';
-import { AppPropsType } from 'next/dist/shared/lib/utils';
+// import { title } from 'process';
+/////////////////////////import { AppPropsType } from 'next/dist/shared/lib/utils';
 
 interface propsType {
     title:string;

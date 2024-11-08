@@ -1,9 +1,8 @@
 "use client"
 import React, { useState } from "react"
 import { AiOutlineMenu ,AiOutlineClose} from "react-icons/ai"
-import Home from '../app/page';
-import Projects from './Projects';
-import Contact from '@/components/Contact';
+
+
 
 const Navbar =()=>{
 const [isMenuOpen ,SetIsMenuOpen] =useState(false)
