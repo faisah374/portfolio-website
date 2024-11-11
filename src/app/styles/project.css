@@ -1,0 +1,26 @@
+.project-container {
+    padding-top: 8rem;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+ .Myproject{
+    display: grid;
+    gap:2.5rem;
+}
+.project-grid-1xl{
+    gap: 2.5rems;
+}
+.project-grid-md-2{
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.project-grid-md-lg-3{
+    grid-template-columns: repeat(3,1fr);
+
+}
+.project-center{
+    
+}

@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from "react"
 import { AiOutlineMenu ,AiOutlineClose} from "react-icons/ai"
+import "../app/styles/navbar.css"
 
 
 
@@ -11,17 +12,17 @@ const toggleMenu=()=>{
 }
 
   return (
-    <div className='container pt-8' >
-        <div className='flex justify-between items-center'>
-            <div className='text-x1 font-medium'> Faisal hameed</div>
-            <ul className='gap-10 lg:gap-16 hidden md:flex'>
-                <li className='menulink'><a href='#hero'>Home</a></li>
-                <li className='menulink'><a href='#about'>About</a></li>
-                <li className='menulink'><a href="#projects"> Projects</a></li>
-                <li className='menulink'><a href="#skills">Skills</a></li>
-                <li className='menulink'><a href="#contact">Contact</a></li>
+    <div className='navbar-container' >
+        <div className='navbar-link'>
+            <div className='navbar'> </div>
+            <ul className='navbar'>
+                <li className='navbar-link'><a href='#hero'>Home</a></li>
+                <li className='navbar-link'><a href='#about'>About</a></li>
+                <li className='navbar-link'><a href="#projects"> Projects</a></li>
+                <li className='navbar-link'><a href="#skills">Skills</a></li>
+                <li className='navbar-link'><a href="#contact">Contact</a></li>
             </ul>
-            <div className="md:hidden"onClick={toggleMenu }>
+            <div className="navbar-menu-icon"onClick={toggleMenu }>
                {isMenuOpen ? <AiOutlineClose size={30}/>:
                <AiOutlineMenu size={30} />
                }
@@ -32,20 +33,20 @@ const toggleMenu=()=>{
 
         </div>
         {isMenuOpen && (
-          <ul className="flex flex-col gap-4 mt-4 md:hidden">
-            <li className="menuLink">
+          <ul className="navbar-menu">
+            <li className="navbar-link">
               <a href="#hero" onClick={toggleMenu}>Home</a>
             </li>
-            <li className="menuLink">
+            <li className="navbar-link">
               <a href="#About" onClick={toggleMenu}>About</a>
             </li>
-            <li className="menuLink">
+            <li className="navbar-link">
               <a href="#projects" onClick={toggleMenu}>Projects</a>
             </li>
-            <li className="menuLink">
+            <li className="navbar-link">
               <a href="#skills" onClick={toggleMenu}>Skills</a>
             </li>
-            <li className="menuLink">
+            <li className="navbar-link">
               <a href="#Contact" onClick={toggleMenu}>Contact</a>
             </li>
           </ul>
